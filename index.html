@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab|Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="top-menu">
+    <ul id="top-menu-ul">
+        <li id="li-left">Основная информация</li>
+        <li id="li-right">Контактная информация</li>
+    </ul>
+</div>
+<div id="main-content">
+    <div id="current-info">
+        <h1 id="info-header">Основная информация</h1>
+    </div>
+    <div id="content-main-info" class="info-block">
+        <p class="p-text-info"><span id="span-timeOfDay">Добрый вечер</span>, меня зовут Владимир,
+            в апреле мне будет 18 лет, я студент 2 курса Челябинского Радиотехнического
+            Техникума, изучаю программирование на языках C#, JS, вёрстку на HTML, CSS.
+            В данный момент, помимо всего этого, изучаю WPF-разработку, где применяю на
+            практике знания о C#, учусь взаимодействовать с базами данных SQL при помощи
+            Entity Framework.</p>
+        <p class="p-text-info">Знание английского языка - хорошее. Техническую литературу
+            понимаю без особых проблем, постоянно обращаюсь к англоязычным ресурсам в поисках
+            решений возникающих проблем. В прошлом году занял призовое место в областной олимпиаде.
+            Также в данный момент изучаю французский язык на курсах в ЮУрГУ.</p>
+        <p class="p-text-info">В техникуме успеваемость хорошая, всё время обучения получаю
+            стипендию. Предметы по специальности - исключительно на "отлично". К сожалению,
+            таких предметов у нас пока немного, и изучать большинство материала
+            приходится самостоятельно.
+            Поэтому я хочу попасть на обучение в IT-компанию. Моя цель - получить достаточное
+            количество знаний для работы по профессии. Желательно, попасть на стажировку после
+            обучения!
+        </p>
+    </div>
+    <div id="contact-info" style="display: none" class="info-block">
+        <p class="p-text-info">ФИО - Деев Владимир Алексеевич</p>
+        <p class="p-text-info">Номер телефона - <span id="show-phone" class="hidden-info">Показать</span></p>
+        <p class="p-text-info">E-Mail - <span id="show-email" class="hidden-info">Показать</span></p>
+        <p class="p-text-info">VK - <span id="show-vk" class="hidden-info">Показать</span></p>
+    </div>
+</div>
+</body>
+</html>

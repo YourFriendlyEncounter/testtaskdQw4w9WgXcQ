@@ -1,0 +1,94 @@
+body, h1{
+    margin: 0;
+}
+body{
+    background-image: url("images/space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#top-menu{
+    margin: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+}
+#top-menu-ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(#eee, #fff, #eee, #eee);
+    border-radius: 8px;
+    margin: 4rem 0 0 0;
+}
+#top-menu-ul li {
+    width: 32rem;
+    padding: 1.25rem 0;
+    vertical-align: middle;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/*панель сверху*/
+#li-left {
+     border-radius: 8px 0 0 8px;
+ }
+#li-left:hover{
+    background: #fff;
+}
+.li-centered{
+    border-left: 1px dashed gray;
+}
+.li-centered:hover{
+    background: #fff;
+}
+#li-right {
+    border-radius: 0 8px 8px 0;
+    border-left: 1px dashed gray;
+}
+#li-right:hover{
+    background: #fff;
+}
+#main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#current-info{
+    background: linear-gradient(#7fa9ee, #9cc1ee, #7fa9ee, #7fa9ee);
+    width: 64rem;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+} .info-block{
+    width: 62rem;
+    background: linear-gradient(#fcfcfc, white, #eee, #ccc);
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 0 0 8px black;
+}
+.p-text-info{
+    text-indent: 2rem;
+    font-size: 1.25rem;
+    font-family: 'Roboto', serif;
+}
+.hidden-info{
+    cursor: pointer;
+    background: #7fa9ee;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    border: 1px solid #888;
+}
+
+
+
+
